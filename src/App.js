@@ -3,7 +3,7 @@ import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl'
 import Main from './components/main'
 import { Link } from 'react-router-dom'
 import './App.css'
-
+import ScrollArea from 'react-scrollbar'
 
 
 class App extends Component {
@@ -25,9 +25,9 @@ class App extends Component {
               </Drawer>
               <Content>
                   <div className="page-content" />
-                  
+                  <ScrollArea>
                     <Main />
-                  
+                  </ScrollArea>
               </Content>
           </Layout>
       </div>
