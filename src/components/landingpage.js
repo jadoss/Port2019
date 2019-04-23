@@ -79,7 +79,7 @@ class Landing extends Component {
 	 						    	Jalexdoss@gmail.com
 	 					</a>
 	 					<p>
-	 					<a href="https://drive.google.com/file/d/18_l3CWDVCGLu_sXPxjUPW6vN-oQKlLNH/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+	 					<a href="https://drive.google.com/file/d/1qkodGWFl9iZ54KNOj_cJrDHjDFVb5hoH/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
 	 					</p>
 	 					</div>
 					</Cell>
