@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl'
-import Landing from './components/landingpage'
+import Main from './components/main'
 import { Link } from 'react-router-dom'
 import './App.css'
 import ScrollArea from 'react-scrollbar'
@@ -26,7 +26,7 @@ class App extends Component {
               <Content>
                   <div className="page-content" />
                   <ScrollArea>
-                    <Landing />
+                    <Main />
                   </ScrollArea>
               </Content>
           </Layout>

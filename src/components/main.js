@@ -6,7 +6,7 @@ import Projects from './projects'
 
 const Main = () => (
 	<Switch>
-		<Route exact path="/" component={Landing} />
+		<Route exact path={process.env.PUBLIC_URL + '/'} component={Landing} />
 		<Route path="/projects" component={Projects} />
 	</Switch>
 )
