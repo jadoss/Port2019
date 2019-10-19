@@ -1,51 +1,16 @@
-import React, { Component } from 'react'
-import { Grid, Cell } from 'react-mdl'
+import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
+import profile from '/Users/x/github/2019_Portfolio/port/src/images/profile.png';
 
-class Landing extends Component {
-	render() {
-		return(
-			<div style={{width: '100%', margin: 'auto'}}>
-				<Grid className="landing-grid">
-					<Cell col={12}>
-						<div className="banner-text">
-
-							<br/>
-
-							<h1>James Doss</h1>
-
-							<hr/>
-
-							<h1>Full Stack Web Developer</h1>
-
-							<hr/>
-
-							<p>HTML/CSS | Bootstrap | JavaSCript | React | NodeJs | Express | MongoDb | Flash Animation</p>
-
-							<div className="social-links">
-								{/*  LinkedIn */}
-								<a href="https://www.linkedin.com/in/jalexdoss/" target="_blank" rel="noopener noreferrer">
-									<i className="fa fa-linkedin-square" aria-hidden="true" />
-								</a>
-
-								{/*  Github */}
-								<a href="https://github.com/jadoss" target="_blank" rel="noopener noreferrer">
-									<i className="fa fa-github-square" aria-hidden="true" />
-								</a>
-
-								<a href="mailto:jalexdoss@gmail.com" rel="noopener noreferrer">
-									<i className="fa fa-envelope-square" aria-hidden="true" />
-								</a>
-
-							</div>
-
-						</div>
-					</Cell>
-				</Grid>
-				{/* <Grid className='aboutme'>
+class About extends Component {
+    render() {
+    console.log(profile);    
+        return (
+            <Grid className='aboutme'>
 					<Cell col={4}>
 						<div style={{textAlign: 'center'}}>
 							<img
-								src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/48982679_10212636283811632_7251336127859130368_n.jpg?_nc_cat=100&_nc_ht=scontent-dfw5-1.xx&oh=aced0bf9cac47f7cf1ccedb9c4643bac&oe=5D3F830D"
+								src={profile}
 								alt="avatar"
 								style={{height: '280px'}}
 							/>
@@ -74,7 +39,7 @@ class Landing extends Component {
 						</p>
 						<div style={{ textAlign: 'center'}}>
 						<h5>Contact</h5>
-						<p>469.995.9705</p>
+						<p>469.866.9511</p>
 						<a href="mailto:jalexdoss@gmail.com">
 	 						    	Jalexdoss@gmail.com
 	 					</a>
@@ -83,14 +48,9 @@ class Landing extends Component {
 	 					</p>
 	 					</div>
 					</Cell>
-				</Grid> */}
-
-				
-				
-				</div>
-
-		)
-	}
+				</Grid>
+        )
+    }
 }
 
-export default Landing;
+export default About;

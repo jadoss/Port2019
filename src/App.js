@@ -14,12 +14,14 @@ class App extends Component {
               <Header className="header-color" title="Portfolio" scroll>
                   <Navigation>
                       <Link to="/">Home</Link>
-                      <Link to="/projects">Projects</Link>
+                      <Link to="/about">About Me</Link>
+                      <Link to="/projects">Projects</Link>      
                   </Navigation>
               </Header>
               <Drawer title="James Doss">
                   <Navigation>
                       <Link to="/">Home</Link>
+                      <Link to="/about">About</Link>                      
                       <Link to="/projects">Projects</Link>
                   </Navigation>
               </Drawer>

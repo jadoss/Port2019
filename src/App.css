@@ -29,11 +29,12 @@ height: 100%;
 .avatar-img {
   height: 300px;
   width: 300px;
-
-  border-radius: 2%;
+  border-radius: 50%;
   vertical-align: middle;
 }
-
+img {
+  border-radius: 2%;
+}
 .banner-text {
   background-color: black;
   opacity: .8;
