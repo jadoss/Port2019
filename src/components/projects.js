@@ -98,24 +98,6 @@ class Projects extends Component {
 					<Cell col={4}>
 						<Card shadow={5} style={{width: '100%', height: '100%', margin: 'auto'}}>
 							<CardTitle style={{color: 'black', height: '176px', background:
-							 'url(https://cdn-images-1.medium.com/max/785/1*H-25KB7EbSHjv70HXrdl6w.png) center / cover'}} >Star Wars Hang-Man</CardTitle>
-							 <CardText>
-							 HTML, CSS, Bootstrap, JavaScript
-							 </CardText>
-							 <CardActions border>
-							 	<Button colored href="https://github.com/jadoss/Hangman-Game" target="_blank">Github</Button>
-							 	<Button colored href="https://jadoss.github.io/Hangman-Game/" target="_blank">LiveDemo</Button>
-							 </CardActions>
-							 <CardMenu style={{color: '#fff'}}>
-							 	
-							 </CardMenu>
-						</Card>
-					</Cell>
-				</Grid>
-				<Grid>
-					<Cell col={4}>
-						<Card shadow={5} style={{width: '100%', height: '100%', margin: 'auto'}}>
-							<CardTitle style={{color: 'black', height: '176px', background:
 							 'url(https://cdn-images-1.medium.com/max/785/1*H-25KB7EbSHjv70HXrdl6w.png) center / cover'}} >Train Scheduler</CardTitle>
 							 <CardText>
 							 BootStrap, Firebase, JQUERY
@@ -129,37 +111,13 @@ class Projects extends Component {
 							 </CardMenu>
 						</Card>
 					</Cell>
-					<Cell col={4}>
-						<Card shadow={5} style={{width: '100%', height: '100%', margin: 'auto'}}>
-							<CardTitle style={{color: 'black', height: '176px', background:
-							 'url(https://cdn-images-1.medium.com/max/785/1*H-25KB7EbSHjv70HXrdl6w.png) center / cover'}} >Dragonball Giphy</CardTitle>
-							 <CardText>
-							 GIPHY API, JQUERY
-							 </CardText>
-							 <CardActions border>
-							 	<Button colored href="https://github.com/jadoss/GifTastic/" target="_blank">Github</Button>
-							 	<Button colored href="https://jadoss.github.io/GifTastic/" target="_blank">LiveDemo</Button>
-							 </CardActions>
-							 <CardMenu style={{color: '#fff'}}>
-							 	
-							 </CardMenu>
-						</Card>
-					</Cell>
 				</Grid>
-
 			</div>
 				
 				
 			)
 		} else if(this.state.activeTab === 1) {
-		  return(
-		  	<div className="projects-grid">
-				
-
-			
-
-				</div>
-		  )	
+		  return(<div>coming soon</div>)
 		}
 	}
 	
@@ -170,7 +128,7 @@ class Projects extends Component {
 			<div>
 				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
 					<Tab>Projects</Tab>
-					<Tab>Freelance</Tab>
+					<Tab>Animation</Tab>
 				</Tabs>
 					<Grid>
 						<Cell col={12}>
