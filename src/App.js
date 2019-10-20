@@ -13,14 +13,14 @@ class App extends Component {
           <Layout>
               <Header className="header-color" title="Portfolio" scroll>
                   <Navigation>
-                      <Link to="/">Home</Link>
+                      <Link to={process.env.PUBLIC_URL + '/'}>Home</Link>
                       <Link to="/about">About Me</Link>
                       <Link to="/projects">Projects</Link>      
                   </Navigation>
               </Header>
               <Drawer title="James Doss">
                   <Navigation>
-                      <Link to="/">Home</Link>
+                      <Link to={process.env.PUBLIC_URL + '/'}>Home</Link>
                       <Link to="/about">About</Link>                      
                       <Link to="/projects">Projects</Link>
                   </Navigation>
