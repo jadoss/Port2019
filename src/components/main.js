@@ -8,9 +8,9 @@ import About from './about'
 
 const Main = () => (
 	<Switch>
-		<Route exact path="/Port2019/" component={Landing} />
-		<Route exact path='/Port2019/about' component={About} />
-		<Route path="/Port2019/projects" component={Projects} />
+		<Route exact path={process.env.PUBLIC_URL + '/'} component={Landing} />
+		<Route exact path='/about' component={About} />
+		<Route path="/projects" component={Projects} />
 	</Switch>
 )
 
